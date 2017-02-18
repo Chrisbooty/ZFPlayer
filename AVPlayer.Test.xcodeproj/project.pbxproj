@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390A505E1E586E25004BAEDA /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390A505D1E586E25004BAEDA /* MoviePlayerViewController.m */; };
+		3937A29E1E581D4E0070A8E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A29D1E581D4E0070A8E2 /* main.m */; };
+		3937A2A11E581D4E0070A8E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2A01E581D4E0070A8E2 /* AppDelegate.m */; };
+		3937A2A41E581D4E0070A8E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2A31E581D4E0070A8E2 /* ViewController.m */; };
+		3937A2A71E581D4E0070A8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3937A2A51E581D4E0070A8E2 /* Main.storyboard */; };
+		3937A2A91E581D4E0070A8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3937A2A81E581D4E0070A8E2 /* Assets.xcassets */; };
+		3937A2AC1E581D4E0070A8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3937A2AA1E581D4E0070A8E2 /* LaunchScreen.storyboard */; };
+		3937A2E41E58371E0070A8E2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3937A2C81E58371E0070A8E2 /* LICENSE */; };
+		3937A2E51E58371E0070A8E2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2CB1E58371E0070A8E2 /* MASCompositeConstraint.m */; };
+		3937A2E61E58371E0070A8E2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2CE1E58371E0070A8E2 /* MASConstraint.m */; };
+		3937A2E71E58371E0070A8E2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2D01E58371E0070A8E2 /* MASConstraintMaker.m */; };
+		3937A2E81E58371E0070A8E2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2D21E58371E0070A8E2 /* MASLayoutConstraint.m */; };
+		3937A2E91E58371E0070A8E2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2D61E58371E0070A8E2 /* MASViewAttribute.m */; };
+		3937A2EA1E58371E0070A8E2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2D81E58371E0070A8E2 /* MASViewConstraint.m */; };
+		3937A2EB1E58371E0070A8E2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2DA1E58371E0070A8E2 /* NSArray+MASAdditions.m */; };
+		3937A2EC1E58371E0070A8E2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2DD1E58371E0070A8E2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		3937A2ED1E58371E0070A8E2 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2DF1E58371E0070A8E2 /* View+MASAdditions.m */; };
+		3937A2EE1E58371E0070A8E2 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2E21E58371E0070A8E2 /* ViewController+MASAdditions.m */; };
+		3937A2EF1E58371E0070A8E2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3937A2E31E58371E0070A8E2 /* README.md */; };
+		3937A39C1E58486E0070A8E2 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A3811E58486E0070A8E2 /* ASValuePopUpView.m */; };
+		3937A39D1E58486E0070A8E2 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A3831E58486E0070A8E2 /* ASValueTrackingSlider.m */; };
+		3937A39E1E58486E0070A8E2 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A3861E58486E0070A8E2 /* UIImageView+ZFCache.m */; };
+		3937A39F1E58486E0070A8E2 /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A3881E58486E0070A8E2 /* UINavigationController+ZFPlayerRotation.m */; };
+		3937A3A01E58486E0070A8E2 /* UITabBarController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A38A1E58486E0070A8E2 /* UITabBarController+ZFPlayerRotation.m */; };
+		3937A3A11E58486E0070A8E2 /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A38C1E58486E0070A8E2 /* UIView+CustomControlView.m */; };
+		3937A3A21E58486E0070A8E2 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A38E1E58486E0070A8E2 /* UIViewController+ZFPlayerRotation.m */; };
+		3937A3A31E58486E0070A8E2 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A3901E58486E0070A8E2 /* MMMaterialDesignSpinner.m */; };
+		3937A3A41E58486E0070A8E2 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A3921E58486E0070A8E2 /* ZFBrightnessView.m */; };
+		3937A3A51E58486E0070A8E2 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3937A3931E58486E0070A8E2 /* ZFPlayer.bundle */; };
+		3937A3A61E58486E0070A8E2 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A3961E58486E0070A8E2 /* ZFPlayerControlView.m */; };
+		3937A3A71E58486E0070A8E2 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A3991E58486E0070A8E2 /* ZFPlayerModel.m */; };
+		3937A3A81E58486E0070A8E2 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937A39B1E58486E0070A8E2 /* ZFPlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		390A505C1E586E25004BAEDA /* MoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
+		390A505D1E586E25004BAEDA /* MoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
+		3937A2991E581D4E0070A8E2 /* AVPlayer.Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayer.Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3937A29D1E581D4E0070A8E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3937A29F1E581D4E0070A8E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3937A2A01E581D4E0070A8E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3937A2A21E581D4E0070A8E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3937A2A31E581D4E0070A8E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3937A2A61E581D4E0070A8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3937A2A81E581D4E0070A8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3937A2AB1E581D4E0070A8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3937A2AD1E581D4E0070A8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3937A2C81E58371E0070A8E2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3937A2CA1E58371E0070A8E2 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		3937A2CB1E58371E0070A8E2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		3937A2CC1E58371E0070A8E2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		3937A2CD1E58371E0070A8E2 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		3937A2CE1E58371E0070A8E2 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		3937A2CF1E58371E0070A8E2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		3937A2D01E58371E0070A8E2 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		3937A2D11E58371E0070A8E2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		3937A2D21E58371E0070A8E2 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		3937A2D31E58371E0070A8E2 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		3937A2D41E58371E0070A8E2 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		3937A2D51E58371E0070A8E2 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		3937A2D61E58371E0070A8E2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		3937A2D71E58371E0070A8E2 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		3937A2D81E58371E0070A8E2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		3937A2D91E58371E0070A8E2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		3937A2DA1E58371E0070A8E2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		3937A2DB1E58371E0070A8E2 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3937A2DC1E58371E0070A8E2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		3937A2DD1E58371E0070A8E2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		3937A2DE1E58371E0070A8E2 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		3937A2DF1E58371E0070A8E2 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		3937A2E01E58371E0070A8E2 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3937A2E11E58371E0070A8E2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		3937A2E21E58371E0070A8E2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3937A2E31E58371E0070A8E2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3937A3801E58486E0070A8E2 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		3937A3811E58486E0070A8E2 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		3937A3821E58486E0070A8E2 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		3937A3831E58486E0070A8E2 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		3937A3851E58486E0070A8E2 /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZFCache.h"; sourceTree = "<group>"; };
+		3937A3861E58486E0070A8E2 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZFCache.m"; sourceTree = "<group>"; };
+		3937A3871E58486E0070A8E2 /* UINavigationController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3937A3881E58486E0070A8E2 /* UINavigationController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3937A3891E58486E0070A8E2 /* UITabBarController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3937A38A1E58486E0070A8E2 /* UITabBarController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3937A38B1E58486E0070A8E2 /* UIView+CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomControlView.h"; sourceTree = "<group>"; };
+		3937A38C1E58486E0070A8E2 /* UIView+CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomControlView.m"; sourceTree = "<group>"; };
+		3937A38D1E58486E0070A8E2 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3937A38E1E58486E0070A8E2 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3937A38F1E58486E0070A8E2 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		3937A3901E58486E0070A8E2 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		3937A3911E58486E0070A8E2 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		3937A3921E58486E0070A8E2 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		3937A3931E58486E0070A8E2 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		3937A3941E58486E0070A8E2 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		3937A3951E58486E0070A8E2 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
+		3937A3961E58486E0070A8E2 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
+		3937A3971E58486E0070A8E2 /* ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
+		3937A3981E58486E0070A8E2 /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
+		3937A3991E58486E0070A8E2 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
+		3937A39A1E58486E0070A8E2 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
+		3937A39B1E58486E0070A8E2 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3937A2961E581D4E0070A8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3937A2901E581D4E0070A8E2 = {
+			isa = PBXGroup;
+			children = (
+				3937A29B1E581D4E0070A8E2 /* AVPlayer.Test */,
+				3937A29A1E581D4E0070A8E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3937A29A1E581D4E0070A8E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3937A2991E581D4E0070A8E2 /* AVPlayer.Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3937A29B1E581D4E0070A8E2 /* AVPlayer.Test */ = {
+			isa = PBXGroup;
+			children = (
+				390A505C1E586E25004BAEDA /* MoviePlayerViewController.h */,
+				390A505D1E586E25004BAEDA /* MoviePlayerViewController.m */,
+				3937A37F1E58486E0070A8E2 /* ZFPlayer */,
+				3937A2C71E58371E0070A8E2 /* Masonry */,
+				3937A29F1E581D4E0070A8E2 /* AppDelegate.h */,
+				3937A2A01E581D4E0070A8E2 /* AppDelegate.m */,
+				3937A2A21E581D4E0070A8E2 /* ViewController.h */,
+				3937A2A31E581D4E0070A8E2 /* ViewController.m */,
+				3937A2A51E581D4E0070A8E2 /* Main.storyboard */,
+				3937A2A81E581D4E0070A8E2 /* Assets.xcassets */,
+				3937A2AA1E581D4E0070A8E2 /* LaunchScreen.storyboard */,
+				3937A2AD1E581D4E0070A8E2 /* Info.plist */,
+				3937A29C1E581D4E0070A8E2 /* Supporting Files */,
+			);
+			path = AVPlayer.Test;
+			sourceTree = "<group>";
+		};
+		3937A29C1E581D4E0070A8E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3937A29D1E581D4E0070A8E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3937A2C71E58371E0070A8E2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				3937A2C81E58371E0070A8E2 /* LICENSE */,
+				3937A2C91E58371E0070A8E2 /* Masonry */,
+				3937A2E31E58371E0070A8E2 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3937A2C91E58371E0070A8E2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				3937A2CA1E58371E0070A8E2 /* MASCompositeConstraint.h */,
+				3937A2CB1E58371E0070A8E2 /* MASCompositeConstraint.m */,
+				3937A2CC1E58371E0070A8E2 /* MASConstraint+Private.h */,
+				3937A2CD1E58371E0070A8E2 /* MASConstraint.h */,
+				3937A2CE1E58371E0070A8E2 /* MASConstraint.m */,
+				3937A2CF1E58371E0070A8E2 /* MASConstraintMaker.h */,
+				3937A2D01E58371E0070A8E2 /* MASConstraintMaker.m */,
+				3937A2D11E58371E0070A8E2 /* MASLayoutConstraint.h */,
+				3937A2D21E58371E0070A8E2 /* MASLayoutConstraint.m */,
+				3937A2D31E58371E0070A8E2 /* Masonry.h */,
+				3937A2D41E58371E0070A8E2 /* MASUtilities.h */,
+				3937A2D51E58371E0070A8E2 /* MASViewAttribute.h */,
+				3937A2D61E58371E0070A8E2 /* MASViewAttribute.m */,
+				3937A2D71E58371E0070A8E2 /* MASViewConstraint.h */,
+				3937A2D81E58371E0070A8E2 /* MASViewConstraint.m */,
+				3937A2D91E58371E0070A8E2 /* NSArray+MASAdditions.h */,
+				3937A2DA1E58371E0070A8E2 /* NSArray+MASAdditions.m */,
+				3937A2DB1E58371E0070A8E2 /* NSArray+MASShorthandAdditions.h */,
+				3937A2DC1E58371E0070A8E2 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				3937A2DD1E58371E0070A8E2 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				3937A2DE1E58371E0070A8E2 /* View+MASAdditions.h */,
+				3937A2DF1E58371E0070A8E2 /* View+MASAdditions.m */,
+				3937A2E01E58371E0070A8E2 /* View+MASShorthandAdditions.h */,
+				3937A2E11E58371E0070A8E2 /* ViewController+MASAdditions.h */,
+				3937A2E21E58371E0070A8E2 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3937A37F1E58486E0070A8E2 /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3937A3801E58486E0070A8E2 /* ASValuePopUpView.h */,
+				3937A3811E58486E0070A8E2 /* ASValuePopUpView.m */,
+				3937A3821E58486E0070A8E2 /* ASValueTrackingSlider.h */,
+				3937A3831E58486E0070A8E2 /* ASValueTrackingSlider.m */,
+				3937A3841E58486E0070A8E2 /* Category */,
+				3937A38F1E58486E0070A8E2 /* MMMaterialDesignSpinner.h */,
+				3937A3901E58486E0070A8E2 /* MMMaterialDesignSpinner.m */,
+				3937A3911E58486E0070A8E2 /* ZFBrightnessView.h */,
+				3937A3921E58486E0070A8E2 /* ZFBrightnessView.m */,
+				3937A3931E58486E0070A8E2 /* ZFPlayer.bundle */,
+				3937A3941E58486E0070A8E2 /* ZFPlayer.h */,
+				3937A3951E58486E0070A8E2 /* ZFPlayerControlView.h */,
+				3937A3961E58486E0070A8E2 /* ZFPlayerControlView.m */,
+				3937A3971E58486E0070A8E2 /* ZFPlayerControlViewDelegate.h */,
+				3937A3981E58486E0070A8E2 /* ZFPlayerModel.h */,
+				3937A3991E58486E0070A8E2 /* ZFPlayerModel.m */,
+				3937A39A1E58486E0070A8E2 /* ZFPlayerView.h */,
+				3937A39B1E58486E0070A8E2 /* ZFPlayerView.m */,
+			);
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		3937A3841E58486E0070A8E2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3937A3851E58486E0070A8E2 /* UIImageView+ZFCache.h */,
+				3937A3861E58486E0070A8E2 /* UIImageView+ZFCache.m */,
+				3937A3871E58486E0070A8E2 /* UINavigationController+ZFPlayerRotation.h */,
+				3937A3881E58486E0070A8E2 /* UINavigationController+ZFPlayerRotation.m */,
+				3937A3891E58486E0070A8E2 /* UITabBarController+ZFPlayerRotation.h */,
+				3937A38A1E58486E0070A8E2 /* UITabBarController+ZFPlayerRotation.m */,
+				3937A38B1E58486E0070A8E2 /* UIView+CustomControlView.h */,
+				3937A38C1E58486E0070A8E2 /* UIView+CustomControlView.m */,
+				3937A38D1E58486E0070A8E2 /* UIViewController+ZFPlayerRotation.h */,
+				3937A38E1E58486E0070A8E2 /* UIViewController+ZFPlayerRotation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3937A2981E581D4E0070A8E2 /* AVPlayer.Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3937A2B01E581D4E0070A8E2 /* Build configuration list for PBXNativeTarget "AVPlayer.Test" */;
+			buildPhases = (
+				3937A2951E581D4E0070A8E2 /* Sources */,
+				3937A2961E581D4E0070A8E2 /* Frameworks */,
+				3937A2971E581D4E0070A8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayer.Test;
+			productName = AVPlayer.Test;
+			productReference = 3937A2991E581D4E0070A8E2 /* AVPlayer.Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3937A2911E581D4E0070A8E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Cijian;
+				TargetAttributes = {
+					3937A2981E581D4E0070A8E2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EZ9549DPUB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3937A2941E581D4E0070A8E2 /* Build configuration list for PBXProject "AVPlayer.Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3937A2901E581D4E0070A8E2;
+			productRefGroup = 3937A29A1E581D4E0070A8E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3937A2981E581D4E0070A8E2 /* AVPlayer.Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3937A2971E581D4E0070A8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3937A2E41E58371E0070A8E2 /* LICENSE in Resources */,
+				3937A2AC1E581D4E0070A8E2 /* LaunchScreen.storyboard in Resources */,
+				3937A2A91E581D4E0070A8E2 /* Assets.xcassets in Resources */,
+				3937A3A51E58486E0070A8E2 /* ZFPlayer.bundle in Resources */,
+				3937A2A71E581D4E0070A8E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3937A2951E581D4E0070A8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3937A2EB1E58371E0070A8E2 /* NSArray+MASAdditions.m in Sources */,
+				3937A2EA1E58371E0070A8E2 /* MASViewConstraint.m in Sources */,
+				3937A3A11E58486E0070A8E2 /* UIView+CustomControlView.m in Sources */,
+				3937A2E71E58371E0070A8E2 /* MASConstraintMaker.m in Sources */,
+				3937A2ED1E58371E0070A8E2 /* View+MASAdditions.m in Sources */,
+				3937A2A41E581D4E0070A8E2 /* ViewController.m in Sources */,
+				3937A2EF1E58371E0070A8E2 /* README.md in Sources */,
+				3937A39C1E58486E0070A8E2 /* ASValuePopUpView.m in Sources */,
+				3937A3A41E58486E0070A8E2 /* ZFBrightnessView.m in Sources */,
+				3937A39D1E58486E0070A8E2 /* ASValueTrackingSlider.m in Sources */,
+				3937A2E61E58371E0070A8E2 /* MASConstraint.m in Sources */,
+				3937A2A11E581D4E0070A8E2 /* AppDelegate.m in Sources */,
+				3937A2E91E58371E0070A8E2 /* MASViewAttribute.m in Sources */,
+				3937A3A31E58486E0070A8E2 /* MMMaterialDesignSpinner.m in Sources */,
+				3937A39E1E58486E0070A8E2 /* UIImageView+ZFCache.m in Sources */,
+				390A505E1E586E25004BAEDA /* MoviePlayerViewController.m in Sources */,
+				3937A3A81E58486E0070A8E2 /* ZFPlayerView.m in Sources */,
+				3937A3A71E58486E0070A8E2 /* ZFPlayerModel.m in Sources */,
+				3937A39F1E58486E0070A8E2 /* UINavigationController+ZFPlayerRotation.m in Sources */,
+				3937A2EC1E58371E0070A8E2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				3937A2E51E58371E0070A8E2 /* MASCompositeConstraint.m in Sources */,
+				3937A3A01E58486E0070A8E2 /* UITabBarController+ZFPlayerRotation.m in Sources */,
+				3937A3A61E58486E0070A8E2 /* ZFPlayerControlView.m in Sources */,
+				3937A3A21E58486E0070A8E2 /* UIViewController+ZFPlayerRotation.m in Sources */,
+				3937A2E81E58371E0070A8E2 /* MASLayoutConstraint.m in Sources */,
+				3937A29E1E581D4E0070A8E2 /* main.m in Sources */,
+				3937A2EE1E58371E0070A8E2 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3937A2A51E581D4E0070A8E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3937A2A61E581D4E0070A8E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3937A2AA1E581D4E0070A8E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3937A2AB1E581D4E0070A8E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3937A2AE1E581D4E0070A8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3937A2AF1E581D4E0070A8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3937A2B11E581D4E0070A8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EZ9549DPUB;
+				INFOPLIST_FILE = AVPlayer.Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cijianWu.AVPlayer-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3937A2B21E581D4E0070A8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EZ9549DPUB;
+				INFOPLIST_FILE = AVPlayer.Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cijianWu.AVPlayer-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3937A2941E581D4E0070A8E2 /* Build configuration list for PBXProject "AVPlayer.Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3937A2AE1E581D4E0070A8E2 /* Debug */,
+				3937A2AF1E581D4E0070A8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3937A2B01E581D4E0070A8E2 /* Build configuration list for PBXNativeTarget "AVPlayer.Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3937A2B11E581D4E0070A8E2 /* Debug */,
+				3937A2B21E581D4E0070A8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3937A2911E581D4E0070A8E2 /* Project object */;
+}
